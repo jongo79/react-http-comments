@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button-request {
+  width: 300px;
+  background-color: rgb(217, 202, 231);
+  padding: 10px;
+}
+
+.data-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.data-item {
+  width: calc(50% - 10px); /* Adjust width and margin as needed */
+  margin-bottom: 20px; /* Add some space between the items */
+}
+
+
