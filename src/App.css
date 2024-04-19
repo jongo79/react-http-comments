@@ -12,16 +12,21 @@
 }
 
 .data-container {
+  margin-left: 0 auto;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust alignment as needed */
+  justify-content: space-around; /* Adjust alignment as needed */
 }
 
 .data-item {
   width: calc(50% - 10px); /* Adjust width and margin as needed */
   margin-bottom: 20px; /* Add some space between the items */
 }
+
+.loadingIcon {
+  flex: 0 0 100%; /* Force the loading icon to take full width */
+  justify-content: center; /* Center the spinner horizontally */}
 
 
